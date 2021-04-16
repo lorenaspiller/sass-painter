@@ -1,0 +1,35 @@
+// containers
+$smallContainer: 700px;
+$container: 1280px;
+
+
+// reset
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: $textColor;
+  font-size: $fontNormal;
+}
+
+// mix
+.container {
+  max-width: $container;
+  margin: 0 auto;
+
+  &.container--small {
+    max-width: $smallContainer;
+    margin: 0 auto;
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+.debug {
+  background-color: pink;
+}

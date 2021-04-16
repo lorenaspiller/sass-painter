@@ -1,3 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  background-color: red;
+  color: #2c2c2c;
+  font-size: 18px;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.container.container--small {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.debug {
+  background-color: pink;
+}
+
+.hero {
+  background-image: url("https://cc-prod.scene7.com/is/image/CCProdAuthor/dt-ps-max-poster-image?$pjpeg$&jpegSize=300&wid=1440");
+  background-size: cover;
+  background-position: 84% 5%;
+  height: 700px;
+  width: 100%;
+  color: #fff;
+}
+.hero__wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.hero__logo {
+  width: 64px;
+}
+.hero__text p {
+  font-size: 22px;
+  margin: 10px 0;
+}
+
+h1 {
+  font-size: 44px;
+}
+
+h2 {
+  font-size: 34px;
 }
