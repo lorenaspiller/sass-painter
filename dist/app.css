@@ -47,10 +47,14 @@ section {
 }
 .hero__logo {
   width: 64px;
+  margin-bottom: 20px;
+}
+.hero__logo img {
+  width: 100%;
 }
 .hero__text p {
   font-size: 22px;
-  margin: 10px 0;
+  margin: 20px 0;
 }
 
 h1 {
@@ -82,4 +86,22 @@ h2, h3 {
 }
 .box__text a:hover {
   color: #0d66d0;
+}
+
+.btn {
+  padding: 10px 30px;
+  border-radius: 30px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.button-primary {
+  background-color: #1473e6;
+  border: 2px solid #1473e6;
+}
+
+.button-secondary {
+  background-color: transparent;
+  border: 2px solid #fff;
 }

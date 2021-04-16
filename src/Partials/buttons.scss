@@ -1,0 +1,17 @@
+.btn {
+  padding: 10px 30px;
+  border-radius: 30px;;
+  color: #fff;
+  font-weight: 700;
+  font-size: $fontParHero;
+}
+
+.button-primary {
+  background-color: $mainColor;
+  border: 2px solid $mainColor;
+}
+
+.button-secondary {
+  background-color: transparent;
+  border: 2px solid #fff;
+}
