@@ -22,10 +22,11 @@
       color: #000;
       padding: 0 10px;
       margin: 0 10px;
+      transition: linear 0.3s;
 
 
       &:hover {
-        background-color: #ccc;
+        background-color: rgba(0,0,0,.1);;
       }
     }
 

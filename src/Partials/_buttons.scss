@@ -4,14 +4,26 @@
   color: #fff;
   font-weight: 700;
   font-size: $fontParHero;
+  cursor: pointer;
+  transition: linear 0.3s;
 }
 
 .button-primary {
   background-color: $mainColor;
   border: 2px solid $mainColor;
+
+  &:hover {
+    background-color: $mainColorDark;
+    border: 2px solid $mainColorDark;
+  }
 }
 
 .button-secondary {
   background-color: transparent;
   border: 2px solid #fff;
+
+  &:hover {
+    color: #000;
+    background-color: #fff;
+  }
 }
