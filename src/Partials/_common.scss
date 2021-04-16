@@ -13,6 +13,11 @@ $container: 1280px;
 body {
   color: $textColor;
   font-size: $fontNormal;
+  font-family: 'Roboto', sans-serif;
+}
+
+section {
+  margin: 80px 0;
 }
 
 // mix
