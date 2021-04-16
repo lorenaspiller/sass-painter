@@ -16,5 +16,14 @@
 
   &__text {
     width: 40%;
+
+    a {
+      color: $mainColor;
+      
+      &:hover {
+        color: $mainColorDark;
+      }
+    }
+
   }
 }
