@@ -1,0 +1,36 @@
+.header-top {
+  height: $navHeight;
+  width: 100%;
+  background-color: rgba(255, 255, 255, .6);
+  position: fixed;
+  left: 0;
+
+  &__nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: $fontSmall;
+
+    li {
+      display: flex;
+      align-items: center;
+    }
+
+    a {
+      line-height: $navHeight;
+      color: #000;
+      padding: 0 10px;
+      margin: 0 10px;
+
+
+      &:hover {
+        background-color: #ccc;
+      }
+    }
+
+    li button {
+      font-size: $fontSmall;
+    }
+  }
+}
